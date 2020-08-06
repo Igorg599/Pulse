@@ -1,0 +1,69 @@
+@media (max-width: 991px) {
+    .promo {
+        padding: 21px 20px 93px 20px;
+    };
+    .our {
+        padding: 70px 20px 80px 20px;
+        &__item {
+            max-width: 220px;
+        }
+    }
+    .title_left {
+        text-align-last: center;
+        font-size: 30px;
+    }
+    .consultation__descr {
+        text-align: center;
+    }
+    .feed-form {
+        margin: 36px auto 0 auto;
+    }
+}
+@media (max-width: 767px) {
+    .header__official {
+        display: none;
+    } 
+    .promo__wrapper {
+        align-items: center;
+    }
+    .promo__header {
+        font-size: 33px;
+        line-height: 33px;
+    }  
+    .promo__subheader {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .our__descr {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .promo__icons {
+        width: 314px;
+    }
+    .promo__icon {
+        font-size: 9px;
+    }
+    header {
+        flex-direction: column;
+    }
+    .header__phone {
+        margin-top: 20px;
+    }
+    .promo__header {
+        font-size: 20px;
+    }
+    .promo__subheader {
+        font-size: 15px;
+        text-align: center;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .our__subtitle {
+        font-size: 12px;
+        text-align: center;
+    }
+}
